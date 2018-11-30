@@ -9,7 +9,7 @@ class TestDataIntegration(unittest.TestCase):
         '''Note that this will touch the filesystem.
         '''
         instance = Data().Inst()
-        self.assertIsNotNone(instance)
+        self.assertFalse(instance is None)
 
 
 if __name__ == '__main__':
