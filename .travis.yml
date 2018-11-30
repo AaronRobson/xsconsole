@@ -6,10 +6,11 @@ python:
   #- 2.5
   - 2.6
   - 2.7
-  - 3.5
-  - 3.6
-  - nightly
   - pypy
+  #- 3.5 #Travis Python 3.X versions are not supported.
+  #- 3.6
+  #- nightly
+  #- pypy3
 
 install:
   pip install -r requirements.txt
