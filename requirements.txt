@@ -1,2 +1,2 @@
-pam==0.1.4
+python-pam==1.8.4
 XenAPI==1.2
