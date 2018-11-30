@@ -6,7 +6,7 @@ python:
   #- 2.5
   - 2.6
   - 2.7
-  - pypy
+  #- pypy #The Linux specific module "spwd" is not available on pypy at the current time.
   #- 3.5 #Travis Python 3.X versions are not supported.
   #- 3.6
   #- nightly
