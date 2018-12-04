@@ -4,7 +4,7 @@ project webpage or installing a pre-built package provided by
 your OS distributor:
     * RPM build
     * Redhat rpm config (if debuginfo is required)
-    * Development install of Python v2.5 or later (e.g., python-devel) Python v3.X are not supported
+    * Development install of Python v2.7 or later (e.g., python-devel) Python v3.X are not supported
     * Development install of bzip2 (e.g.,bzip2-devel)
 
 
